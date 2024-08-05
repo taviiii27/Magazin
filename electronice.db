@@ -1,0 +1,2 @@
+INSERT INTO electronice.electronice(`id`, `produs`,`tip`,`an`,`pret`, `stoc`)VALUES (1,'laptop', 'macbook', 2020, 4000, 'disponibil'), (2, 'smartphone', 'iphone14', 2022, 4100, 'disponibil'), (3, 'tableta', 'ipadPro', 2021, 2300, 'indisponibil'), 
+(4, 'laptop', 'acer', 2019, 3400, 'indisponibil'), (5, 'smartphone', 'iphone15Pro', 2023, 5250, 'disponibil')
