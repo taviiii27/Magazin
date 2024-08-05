@@ -3,6 +3,7 @@ class Laptop(Produs):
     def __init__(self, id, produs, tip, an, pret, stoc, memorie):
         super().__init__(id, produs, tip, an, pret, stoc)
         self.memorie=memorie
+        self.client=client
     def interes(self):
         if self.memorie>=256:
             if self.client=='gamer' or self.client=='programator':
